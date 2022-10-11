@@ -1,13 +1,12 @@
-# Shiny App from Project Acess to Opportunities
+# Shiny App from Prototype of Brazil's Health Assistance Network and small hospitals
 
 ## Instructions
 
-After cloning the repository, start by locating the `acesso_app.Rproj` file and opening it in RStudio. 
+TBD
 
 ### Data setup
 
-Data is zipped, so you're gonna need to unzip it before proceding. You can do this using the ``zip`` package:
+TBD
 
-```r
-zip::unzip("atlasacessibilidade/data/acess_app_data_2019.zip", exdir = "atlasacessibilidade/data/")
-```
+
+#Heavily based on original's IPEA Project Acess to Opportunities
