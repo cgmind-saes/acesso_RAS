@@ -27,3 +27,5 @@ setHook("rstudio.sessionInit", function(newSession) {
     message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
   }
 }, action = "append")
+
+options(java.parameters = c("-XX:+UseConcMarkSweepGC", "-Xmx12228m"))

@@ -30,7 +30,7 @@ source("R/slider_input_acess.R")
 options(datatable.optimize=Inf)
 
 # set number of threads used in data.table
-data.table::setDTthreads(percent = 100)
+data.table::setDTthreads(percent = 75)
 
 
 # register mapbox api key ---------------------------

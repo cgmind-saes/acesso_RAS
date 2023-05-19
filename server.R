@@ -4,10 +4,10 @@
 # MAP DATA
 
 # Accessiblity data
-# acess <- readRDS("data/acess_wide.rds")
+ acess <- readRDS("data/acess_wide.rds")
 
 # Hex Spatial Sf Data
-# hex <- readRDS("data/hex.rds")
+ hex <- readRDS("data/hex.rds")
 
 # Cities centroids data
 centroids <- readRDS("data/cities_centroids.rds") %>% setDT()
@@ -79,7 +79,7 @@ function(input, output, session) {
             class = "btn btn-default action-button shiny-bound-input",
             img(src="img/preview_map.png",
                 height = "150px"),
-            h3("Mapas"), p("Explore indicadores em mapas interativos"),
+            h3("Mapas"), p("Explore a rede em mapas interativos"),
           ),
           # actionButton("link_to_maps", "Maps",
           #              width = "300px"),
@@ -88,7 +88,7 @@ function(input, output, session) {
             class = "btn btn-default action-button shiny-bound-input",
             img(src="img/preview_graphs.png",
                 height = "150px"),
-            h3("Gráficos"), p("Compare indicadores de desigualdade entre cidades"),
+            h3("Gráficos"), p("Compare indicadores entre macrorregiões de saúde"),
           )
           # actionButton("link_to_graphs", "Graphs",
           #              width = "300px")
@@ -104,7 +104,7 @@ function(input, output, session) {
             class = "btn btn-default action-button shiny-bound-input",
             img(src="img/preview_map.png",
                 height = "150px"),
-            h3("Maps"), p("Explore indicators in an interactive map"),
+            h3("Maps"), p("Explore the network in an interactive map"),
           ),
           # actionButton("link_to_maps", "Maps",
           #              width = "300px"),
@@ -113,7 +113,7 @@ function(input, output, session) {
             class = "btn btn-default action-button shiny-bound-input",
             img(src="img/preview_graphs.png",
                 height = "150px"),
-            h3("Charts"), p("Compare inequalities between cities"),
+            h3("Charts"), p("Compare inequalities between health regions"),
           )
           # actionButton("link_to_graphs", "Graphs",
           #              width = "300px")

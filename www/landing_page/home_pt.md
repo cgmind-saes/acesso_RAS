@@ -11,7 +11,7 @@ Para começar, clique acima no tipo de visualização desejada: <code>Mapa</code
 
 </div>
 
-<!---
-<p style="font-size: 18px; padding-left: 50px; padding-top: 20px;">O Atlas da Acessibilidade apresenta os resultados do <a href="https://www.ipea.gov.br/acessooportunidades/en/">Projeto Acesso a Oportunidades</a>.</p>
 
- <img align="left" width="200" src="img/logo_acess.png" hspace="20" vspace="0"> -->
+<p style="font-size: 18px; padding-left: 50px; padding-top: 20px;">O Mapa da Rede de Atenção Especializada à Saúde é um projeto piloto da SAES/MS</a>.</p>
+
+ <img align="left" width="200" src="img/logo_acess.png" hspace="20" vspace="0"> 

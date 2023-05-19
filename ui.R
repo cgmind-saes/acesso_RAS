@@ -33,7 +33,7 @@ shinyUI(
                             mapdeckOutput("map"),
                             # Create the side panel  
                             absolutePanel(id = "controls", class = "panel panel-default", 
-                                          fixed = TRUE, draggable = FALSE,
+                                          fixed = TRUE, draggable = TRUE,
                                           top = 55, right = 10, width = 350, height = 595,
                                           # Output the 'UI' that was generated in the server
                                           uiOutput('page_content')
